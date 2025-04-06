@@ -1,4 +1,3 @@
-// src\03\02\index.test.ts
 import { add, sub } from ".";
 
 /**

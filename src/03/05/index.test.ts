@@ -1,5 +1,7 @@
+// Path: src\03\05\index.test.ts
+// src\03\05\index.test.ts
 /* 원서에는 없지만 코드 3-23 테스트를 위해 HttpError 추가 */
-import { add, HttpError, RangeError, sub } from ".";
+import { add, RangeError, sub } from ".";
 
 /**
  * 원서에 있는 원본 저장소는 중간과정은 생략하고 최종 완성본만 기재한 부분들이 있습니다.
@@ -76,6 +78,7 @@ describe("사칙연산", () => {
     test("반환값은 첫 번째 매개변수에서 두 번째 매개변수를 뺀 값이다", () => {
       expect(sub(51, 50)).toBe(1);
     });
+
     test("반환값의 하한은 '0'이다", () => {
       expect(sub(70, 80)).toBe(0);
     });

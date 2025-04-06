@@ -1,6 +1,8 @@
+// Path: src\03\05\index.ts
+// src\03\05\index.ts
 /* 코드 3-20 원서 저장소에는 HttpError는 없음 */
-export class HttpError extends Error {}
-export class RangeError extends Error {}
+export class HttpError extends Error { }
+export class RangeError extends Error { }
 
 /* 코드 3-12
 export function add(a: number, b: number) {
